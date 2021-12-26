@@ -178,7 +178,7 @@ header.home-hero .container {
   font-weight: 500;
 }
 @media (min-width: 600px) {
-  .display-3 {
+  v::deep .display-3 {
     font-size: 2rem;
   }
 }
