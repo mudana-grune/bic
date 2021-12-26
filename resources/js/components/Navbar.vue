@@ -5,7 +5,7 @@
         <i class="fa fa-bars fa-2x"></i>
       </div>
       <div class="logo">
-        <img width="65px" src="/img/logo.jpeg" alt="Logo">
+        <img width="65px" src="/img/logo.png" alt="Logo">
         <span> {{ title }}</span>
       </div>
       <div class="menu">
