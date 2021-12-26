@@ -19,7 +19,7 @@
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white">
-          <h1 class="display-3"></h1>
+          <h1 class="display-3">{{ title }}</h1>
           <p class="lead mb-0">
             <!-- <a role="button" target="" href="/pmb" class="register"
               >DAFTAR SEKARANG</a
@@ -39,6 +39,11 @@ export default {
   },
   mounted() {
     this.videoSrc = "/video/hero.mp4";
+  },
+  computed: {
+    title() {
+      return process.env.MIX_APP_TITLE;
+    },
   },
 };
 </script>
