@@ -177,4 +177,9 @@ header.home-hero .container {
   border-radius: 0;
   font-weight: 500;
 }
+@media (min-width: 600px) {
+  .display-3 {
+    font-size: 2rem;
+  }
+}
 </style>
