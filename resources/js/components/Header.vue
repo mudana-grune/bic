@@ -10,7 +10,7 @@
       muted="muted"
       loop="loop"
       preload="auto"
-      poster="/img/poster.jpg?version=2"
+      :poster="version"
     >
       <source :src="videoSrc" type="video/mp4" />
     </video>
@@ -45,7 +45,7 @@ export default {
       return process.env.MIX_APP_NAME;
     },
     version(){
-        return
+        return "/img/poster.jpg?version"+(new Date()).toISOString().replace(/[^\d]/g,'');
     }
   },
 };
