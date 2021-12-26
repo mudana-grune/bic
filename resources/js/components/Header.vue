@@ -45,7 +45,7 @@ export default {
       return process.env.MIX_APP_NAME;
     },
     version(){
-        return "/img/poster.jpg?version"+(new Date()).toISOString().replace(/[^\d]/g,'');
+        return "/img/poster.jpg?version="+(new Date()).toISOString().replace(/[^\d]/g,'');
     }
   },
 };
