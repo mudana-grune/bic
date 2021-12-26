@@ -42,7 +42,7 @@ export default {
   },
   computed: {
     title() {
-      return process.env.MIX_APP_TITLE;
+      return process.env.MIX_APP_NAME;
     },
   },
 };
