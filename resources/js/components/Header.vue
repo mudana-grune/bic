@@ -44,6 +44,9 @@ export default {
     title() {
       return process.env.MIX_APP_NAME;
     },
+    version(){
+        return
+    }
   },
 };
 </script>
