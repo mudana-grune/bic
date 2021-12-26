@@ -8,7 +8,7 @@
               <div class="footer-logo">
                 <figure>
                   <router-link :to="{ name: 'home' }"
-                    ><img width="150px" src="/img/logo.png" alt="Logo Bottom"
+                    ><img width="300px" src="/img/logo-footer.png" alt="Logo Bottom"
                   /></router-link>
                 </figure>
               </div>

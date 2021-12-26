@@ -20,7 +20,7 @@
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white">
           <h1 class="display-3">{{ title }}</h1>
-           <h1 class="display-2">( Land Base And Cruise Line Career )</h1>
+          <h1 class="display-2">Land Base And Cruise Line Career</h1>
           <p class="lead mb-0">
             <!-- <a role="button" target="" href="/pmb" class="register"
               >DAFTAR SEKARANG</a
@@ -177,9 +177,27 @@ header.home-hero .container {
   border-radius: 0;
   font-weight: 500;
 }
-@media (min-width: 600px) {
-  v::deep .display-3 {
-    font-size: 2rem;
-  }
+@media (max-width: 500px) {
+   .v-application .display-3 {
+  font-size: 2rem !important;
 }
+}
+@media (max-width: 800px) {
+   .v-application .display-3 {
+  font-size: 2.5rem !important;
+}
+}
+@media (max-width: 500px) {
+.v-application .display-2{
+    font-weight: bold;
+    font-size: 1rem !important;
+}
+}
+@media (max-width: 800px) {
+.v-application .display-2{
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+}
+
 </style>
