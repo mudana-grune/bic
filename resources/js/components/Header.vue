@@ -19,12 +19,11 @@
     <div class="container h-100">
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white">
-          <h1 class="display-3">{{ title }}</h1>
-          <h1 class="display-2">Land Base And Cruise Line Career</h1>
-          <p class="lead mb-0">
-            <!-- <a role="button" target="" href="/pmb" class="register"
-              >DAFTAR SEKARANG</a
-            > -->
+          <h1 class="display-3 pt-2">{{ title }}</h1>
+          <p class="display-2 py-4">Land Base And Cruise Line Career</p>
+          <v-divider></v-divider>
+          <p class="lead mb-0 display-2">
+            SET YOUR DREAM COMES TRUE
           </p>
         </div>
       </div>
@@ -190,14 +189,17 @@ header.home-hero .container {
 @media (max-width: 500px) {
 .v-application .display-2{
     font-weight: bold;
-    font-size: 1rem !important;
+    font-size: 0.7rem !important;
 }
 }
 @media (max-width: 800px) {
 .v-application .display-2{
     font-weight: bold;
-    font-size: 2rem !important;
+    font-size: 1.7rem !important;
 }
+}
+.v-application .lead {
+    letter-spacing: 0.75rem !important;
 }
 
 </style>
