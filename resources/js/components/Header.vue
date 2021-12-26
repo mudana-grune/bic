@@ -20,11 +20,6 @@
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white">
           <h1 class="display-3 pt-2">{{ title }}</h1>
-          <p class="display-2 py-4">Land Base And Cruise Line Career</p>
-          <v-divider></v-divider>
-          <p class="lead mb-0 display-2">
-            SET YOUR DREAM COMES TRUE
-          </p>
         </div>
       </div>
     </div>
