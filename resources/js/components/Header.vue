@@ -20,6 +20,7 @@
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white">
           <h1 class="display-3">{{ title }}</h1>
+           <h1 class="display-2">( Land Base And Cruise Line Career )</h1>
           <p class="lead mb-0">
             <!-- <a role="button" target="" href="/pmb" class="register"
               >DAFTAR SEKARANG</a
