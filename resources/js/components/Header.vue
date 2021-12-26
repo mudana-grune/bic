@@ -10,7 +10,7 @@
       muted="muted"
       loop="loop"
       preload="auto"
-      poster="/img/poster.jpg"
+      poster="/img/poster.jpg?version=2"
     >
       <source :src="videoSrc" type="video/mp4" />
     </video>
