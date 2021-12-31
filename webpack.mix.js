@@ -1,6 +1,12 @@
 require("dotenv").config()
 const mix = require('laravel-mix');
 
+mix.webpackConfig({
+    output: {
+        filename:'[name].js',
+        chunkFilename: 'js/chunks/[name][contenthash:6].js',
+    },
+});
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -13,5 +19,6 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .vue().version()
-    .sass('resources/sass/app.scss', 'public/css').version();
+    .vue()
+    .sass('resources/sass/app.scss', 'public/css');
+mix.version();

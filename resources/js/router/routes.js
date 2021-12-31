@@ -1,4 +1,5 @@
 import Home from '../pages/Home';
+import TentangKami from '../pages/TentangKami';
 
 
 const routes = [
@@ -7,6 +8,11 @@ const routes = [
 		name: 'home',
 		component: Home
 	},
+    {
+        path:'/tentang-kami',
+        name: 'tentang.kami',
+        component: TentangKami
+    }
 
 ];
 

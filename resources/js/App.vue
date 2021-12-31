@@ -1,6 +1,7 @@
 <template>
   <v-app id="app">
     <router-view />
+    <div class="preloader"></div>
     <div
       class="scroll-to-top scroll-to-target"
       data-target="html"
@@ -37,6 +38,9 @@ export default {
           1000
         );
       });
+    }
+    if($('.preloader').length){
+        $('.preloader').delay(1000).fadeOut(1000);
     }
   },
 };
@@ -83,5 +87,23 @@ body p {
 
 .scroll-to-top .fa {
   color: #fff;
+}
+.preloader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999999;
+  background-color: rgba(255, 255, 255, 1);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(/img/preloader.gif);
+}
+
+.text-content ol > li,
+.text-content p {
+  font-size: 1.35rem;
+  color: rgba(0, 0, 0, 0.8);
 }
 </style>

@@ -1,40 +1,19 @@
 <template>
   <div>
     <Header />
-    <!-- <section class="callout-section" ref="scroll">
-      <div class="container-fluid">
-        <div class="row">
-          <div
-            class="callout-item col-xl-2 col-lg-2"
-            v-for="item in items"
-            :key="item.id"
-            :class="{ 'light-bg': item.id == component }"
-            @click="selectItem(item.id); scrollPage()"
-          >
-            <div class="row justify-content-center mr-auto" >
-              <h5>{{ item.title }}</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="welcome-section sp-home" >
-      <div class="container">
-        <div>
-          <component :is="activeComponent"></component>
-        </div>
-      </div>
-    </section> -->
+    <VisiMisi/>
   </div>
 </template>
 <script>
 
-import Header from "../components/Header";
+const Header = () => import("../components/Header");
+const VisiMisi = () =>import ("./VisiMisi.vue");
 
 
 export default {
   components: {
     Header,
+    VisiMisi
   },
    metaInfo: {
     title: " || HOME",

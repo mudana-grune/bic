@@ -14,7 +14,7 @@
           <li><router-link :to="{path: '#'}">Fasilitas</router-link></li>
           <li><router-link :to="{path: '/#'}">Karir</router-link></li>
           <li><router-link :to="{path: '/#'}">Portfolio</router-link></li>
-          <li><router-link :to="`#`">Tentang Kami</router-link></li>
+          <li><router-link :to="{path: '/tentang-kami'}">Tentang Kami</router-link></li>
 
         </ul>
       </div>
