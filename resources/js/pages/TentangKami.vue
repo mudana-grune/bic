@@ -4,12 +4,12 @@
       <div class="container">
         <h1 class="pb-5">Tentang Kami</h1>
         <v-divider></v-divider>
-        <div class="text-content">
+        <div class="text-content text-justify">
           <p>
             <strong>BIC (Bali International Course)</strong> di dirikan pada
             tahun 2018 oleh founder nya Bapak Ida Bagus Wisnu, yang berpusat di
             Denpasar,tepatnya di Jln.Padangsambian 88X Tangkuban Perahu,
-            Denpasar Bali,yang telah lama berkiprah di ranah pengembangan
+            Denpasar Bali, yang telah lama berkiprah di ranah pengembangan
             karakter bahasa asing, dalam hal ini Bahasa Inggris dan lainnya.
           </p>
           <p>
@@ -33,10 +33,12 @@
           </p>
           <p>
             Tak ada yang sempurna dalam pengembangan lembaga ini, kritik dan
-            saran selalu kami tampung untuk mengembangkan lembaga kami. Akhir
-            kata, terimakasih kepada segenap partner kerja yang telah banyak
-            mendukung hingga terwujudnya Bali International Course ini menjadi
-            lebih dewasa dan mandiri.
+            saran selalu kami tampung untuk mengembangkan lembaga kami.
+          </p>
+          <p>
+            Akhir kata, terimakasih kepada segenap partner kerja yang telah
+            banyak mendukung hingga terwujudnya Bali International Course ini
+            menjadi lebih dewasa dan mandiri.
           </p>
         </div>
       </div>

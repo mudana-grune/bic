@@ -39,8 +39,8 @@ export default {
         );
       });
     }
-    if($('.preloader').length){
-        $('.preloader').delay(1000).fadeOut(1000);
+    if ($(".preloader").length) {
+      $(".preloader").delay(1000).fadeOut(1000);
     }
   },
 };
