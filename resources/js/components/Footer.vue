@@ -3,37 +3,54 @@
     <footer class="main-footer bg-four sp-one">
       <div class="container">
         <div class="row">
-          <div class="col-xl-4 col-lg-6 col-sm-12 footer-colmun">
+          <div class="col-12 footer-colmun">
             <div class="footer-clomun footer-about-widget">
               <div class="footer-logo">
                 <figure>
                   <router-link :to="{ name: 'home' }"
-                    ><img width="300px" src="/img/logo-footer.png" alt="Logo Bottom"
+                    ><img
+                      width="300px"
+                      src="/img/logo-footer.png"
+                      alt="Logo Bottom"
                   /></router-link>
                 </figure>
               </div>
-              <p class="text-dark">
-               Jln. Pantai Saba, Blahbatuh, Gianyar, Bali
-              </p>
-              <ul class="social-links">
+              <ul class="social-links pb-5">
                 <li>
-                  <a href="https://www.facebook.com/itpmarkandeyabali"
+                  <a
+                    href="https://www.facebook.com/itpmarkandeyabali"
                     target="_blank"
                     ><font-awesome-icon
-                      size="2x"
+                      size="3x"
                       :icon="{ prefix: 'fab', iconName: 'facebook' }"
                   /></a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/itpmarkandeyabali"
+                  <a
+                    href="https://www.instagram.com/itpmarkandeyabali"
                     target="_blank"
                     ><font-awesome-icon
-                      size="2x"
+                      size="3x"
                       :icon="{ prefix: 'fab', iconName: 'instagram' }"
                   /></a>
                 </li>
-                <li><a href="mailto:itpmarkandeyabali@gmail.com"> <font-awesome-icon  size="2x" icon="envelope"/></a></li>
+                <li>
+                  <a href="mailto:itpmarkandeyabali@gmail.com">
+                    <font-awesome-icon size="3x" icon="envelope"
+                  /></a>
+                </li>
               </ul>
+              <p class="text-dark">
+                Jln. Pantai Saba, Blahbatuh, Gianyar, Bali
+              </p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d677.5126822175534!2d115.31428850115871!3d-8.606180615729912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd215e611fc94fd%3A0x8c298c1c292999e1!2sBONK!5e0!3m2!1sen!2sid!4v1640945540098!5m2!1sen!2sid"
+                width="100%"
+                height="350"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
             </div>
           </div>
           <div class="col-xl-2 col-lg-6 col-sm-12 footer-colmun">
@@ -305,7 +322,13 @@ li {
 }
 
 /*===Footer Bottom===*/
-
+.text-dark {
+    font-size: 1.15rem;
+    color: black;
+}
+.footer-about-widget{
+    margin-right: 0px !important;
+}
 .bottom-text p {
   font-size: 15px;
   color: #333333;
